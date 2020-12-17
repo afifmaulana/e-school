@@ -27,10 +27,10 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Data Guru</h4>
+                                <h4 class="page-title">Data Kelas</h4>
                             </li>
                             
-                            <li class="breadcrumb-item active">Data Guru</li>
+                            <li class="breadcrumb-item active">Data Kelas</li>
                         </ul>
                     </div>
                 </div>
@@ -41,12 +41,12 @@
                     <div class="card">
                         <div class="header">
                             <h2>
-                                Data Guru</h2>
+                                Data Kelas</h2>
                             <ul class="header-dropdown m-r--5">
                                 <div class="btn-group m-l-15">
                                     <a href="{{ route('classroom.create') }}">
                                         <button id="addRow" class="btn btn-info">
-                                            Tambah Siswa
+                                            Tambah Kelas
                                             <i class="fa fa-plus"></i>
                                         </button>
                                     </a>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="float-left">
                             <a href="{{ route('classroom.pdf') }}">
-                                <button class="btn btn-success">Cetak Classroom | <i class="fa fa-print"></i></button>
+                                <button class="btn btn-success">Cetak Data | <i class="fa fa-print"></i></button>
                             </a>
                             <p></p>
                         </div>
